@@ -260,7 +260,6 @@ class ChangeIPDialog(QDialog):
         try:
             octets = ip.split('.')
             if int(octets[0]) > 223 or octets[0] == '127' or octets[-1] == '255' or octets[-1] == '0':
-                print("octet 조건 불만족")
                 return False
 
             return True
