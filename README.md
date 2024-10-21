@@ -2,10 +2,12 @@
   - pip install pyinstaller==4.10
   - pip install PyQt5==5.15.10
 
+<br>
 
 - To create a standalone executable, use the PyInstaller command:
   - pyinstaller --onefile --noconsole .\IPC_Search_Tool.py
 
+<br>
 
 - Once the executable is built, you can run it directly:
   1. Navigate to the dist directory.
