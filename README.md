@@ -1,6 +1,8 @@
-- To install the necessary dependencies, use the following commands:
-  - pip install pyinstaller==4.10
-  - pip install PyQt5==5.15.10
+- To set up the environment, ensure you have the following:
+  1. Install Python 3.8.xx (download from https://www.python.org/).
+  2. Install dependencies:
+     - pip install pyinstaller==4.10
+     - pip install PyQt5==5.15.10
 
 <br>
 
